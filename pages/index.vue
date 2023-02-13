@@ -9,5 +9,7 @@ const pageName = 'foo bar'
     <NuxtLink :to="`/bugged/${pageName}`">foo bar</NuxtLink>
     <br />
     <NuxtLink to="/bugged/test toast">test test</NuxtLink>
+    <br />
+    <NuxtLink to="/testing directory/">testing directory</NuxtLink>
   </div>
 </template>
