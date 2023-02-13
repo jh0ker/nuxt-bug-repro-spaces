@@ -7,5 +7,6 @@ const name = route.params.name
 <template>
   <div>
     <h1>{{ name }}</h1>
+    <NuxtLink to="/">back</NuxtLink>
   </div>
 </template>
